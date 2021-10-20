@@ -1,0 +1,96 @@
+/*Esto modifica el color del fondo y el tipo de letra de todo el documento*/
+body{
+
+    font-family: Berlin Sans FB;
+    background: rgb(56,198,231);
+background: radial-gradient(circle, rgba(56,198,231,1) 0%, rgba(0,232,255,1) 100%, rgba(63,223,255,1) 100%);
+}
+
+/*Este es el contenedor blanco, este le da forma y el color para asi poder verlo*/
+
+#contenedor_login_blanco{
+
+    width: 20vw;
+    height: 45vh;
+    border: 2px solid #E8F6F9;
+    border-radius: 5vw;
+    padding: 1vw;
+    margin-left: 37vw;
+    margin-top: 18vh;
+    position: absolute;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+    
+
+}
+
+
+/*Esto le da el espaciado y el centrado a los lugares donde se va a escribir el texto, osea los inputs type="text"*/
+#contenedor_inputs_login{
+
+    text-align: center;
+    margin-top: 5vh;
+
+}
+
+/*Esto le da el tamaño a la imagen del senasoft y la direccion en donde va a estar ubicada*/
+#logo_senasoft{
+
+    width: 8vw;
+    height: 5vh;
+    margin-bottom: 5vh;
+    display: block;
+    margin-left: 6vw;
+
+}
+
+
+/*Esto le dara el estilo y el largor a los lugares donde de escribe el texto*/
+.input_iniciar_sesion{
+    
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #B0B0B0;
+    outline: none;
+    margin-bottom: 2vh;
+    width: 13vw;
+}
+
+
+/*Esto le da el cambio de color a la linea donde se escribira el correo y la contraseña*/
+.input_iniciar_sesion:focus{
+
+    border-bottom: 2px solid #666666;        
+
+}
+
+
+/*Esto le dara tanto es largor y anchor, como tambien los colores y el estilo al boton de iniciar sesion*/
+#boton_iniciar_sesion{
+
+    width: 10vw;
+    height: 3vh;
+    background-color: #567ffc;
+    color: white;
+    border: solid 1px #587be2;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+/*Esto le da la animacion del cambio de color al boton de iniciar sesion*/
+#boton_iniciar_sesion:hover{
+
+    background-color: #475ffa;
+    border: solid 1px #3662e7;
+
+}
+
+/*Esto se encarga de darle un color diferente al link de "¿Olvidaste tu contraseña?*/
+#link_olvide_contrasena{
+
+    color: #3965EE;
+
+}

@@ -1,0 +1,149 @@
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+
+}
+
+.svg-icon {
+    width: 1.2em;
+    height: 1.2em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #ffffff;
+  }
+  
+  .svg-icon circle {
+    stroke: #ffffff;
+    stroke-width: 1;
+  }
+
+/*------------------------------------------*/
+
+.nav_bar{
+
+    background-color: #00BBE8;
+    overflow: hidden;
+
+}
+
+#logo_inicio{
+
+    width: 3vw;
+    height: 4vh;
+    margin-left:5vw;
+    margin-top: 3vh;
+}
+
+#texto_logo{
+
+    font-size: 17px;
+    color: #f2f2f2;
+    font-weight: 400;
+
+}
+
+#nav_bar_links a{
+
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: -5vh;
+}
+
+.contenedores_fieldsets_informacion{
+
+    margin-top: 10vh;
+    margin-left: 15vw;
+    float: left;
+    display: block;
+    border-radius: 30px;
+    padding: 2vw;
+    text-align: center;
+    border: 3px solid #00BBE8;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.input_nombre_especialidad{
+
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #B0B0B0;
+    outline: none;
+    margin-bottom: 2vh;
+    margin-left: 3vw;
+    width: 13vw;
+    display: block;
+
+}
+
+.input_nombre_especialidad:focus{
+
+    border-bottom: 2px solid #666666;
+
+}
+
+.boton_registrar_especialidad{
+
+    margin-top: 2vh;
+    width: 10vw;
+    height: 3vh;
+    background-color: #567ffc;
+    color: white;
+    border: solid 1px #587be2;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.boton_registrar_especialidad:hover{
+
+    background-color: #475ffa;
+    border: solid 1px #3662e7;
+
+}
+
+.titulos_tabla_registrar_especialidad{
+
+    color: #0544cc;
+
+}
+
+.titulo_registrar_especialidad{
+
+    color: #0544cc;
+    margin-top: -1vh;
+    margin-bottom: 5vh;
+
+}
+
+footer{
+    background-color: #00BBE8;
+    width: 100vw;
+    height: 15vh;
+    margin-top: 78.5vh;
+}
+
+#creado_por{
+
+    color: white;
+    font-size: 22px;
+    margin-left: 3vw;
+    font-weight: 900;
+
+}
+
